@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  margin: 50PX;
+  display: flex;
+  overflow: auto;
+   
+}
+.main-header-container {
+  box-shadow: 4px 4px 10px 0px black;
+}
+.img-wei {
+  box-shadow: 4px 4px 10px 0px black;
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+.text {
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0 ;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3c303a;
+}
+.container:hover .text {
+  opacity: 1;
+}
+.about-Ai__Weiwei, .about-Banksy{
+ 
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+}
+figure img{
+  
+  box-shadow: 7px 4px 20px 4px #000000;
+  margin: 25px
+}

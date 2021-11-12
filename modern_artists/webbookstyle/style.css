@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+html, body {
+  height: 100%;
+}
+
+
+
+.cards {
+  background: #563537;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px 20px rgb(0 0 0 / 17%);
+  padding: 30px 35px;
+  perspective: 1800px;
+  transform-style: preserve-3d;
+  width: fit-content;
+  margin-top: 13rem;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  height: 250px;
+  overflow: hidden;
+  perspective: 1200px;
+  position: relative;
+  width: 175px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.card__bg {
+  bottom: -50px;
+  left: -50px;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+
+  z-index: 0;
+}
+
+
+.card__one .card__bg {
+  background: url("https://images.pexels.com/photos/594452/pexels-photo-594452.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center/cover no-repeat;
+}
+
+.card__two .card__bg {
+  background: url("https://images.pexels.com/photos/2975688/pexels-photo-2975688.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center/cover no-repeat;
+}
+
+.card__three .card__bg {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_howlbg.jpg") center/cover no-repeat;
+}
+.card__text {
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 100%);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.card__title {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0 10px;
+  margin-bottom: 60px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
