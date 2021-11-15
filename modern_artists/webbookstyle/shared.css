@@ -81,9 +81,7 @@ header {
     padding: 0 44px;
     
 }
-.main-nav__item a {
-    font-size: 2.5rem;
-}
+
 footer { 
     background-color: #170f0e;
     text-align: center;
@@ -156,7 +154,9 @@ h4 {
         li{
             list-style: none;
         }
-
+    .main-nav__item a {
+        font-size: 2.5rem;
+    }
         a:hover {
             color: rgb(255, 0, 0);       
         }
