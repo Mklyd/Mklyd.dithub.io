@@ -19,7 +19,7 @@ a {
     color: white;
     text-decoration: none;  
     text-transform: uppercase;   
-    padding: 5px ;
+    padding: 15px 5;
 }
 a:hover {
     transition: all 1s ease;
