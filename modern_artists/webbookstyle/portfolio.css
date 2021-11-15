@@ -58,6 +58,7 @@ main {
           display: flex;
           flex-direction: column;
           justify-content: center;
+          height: 100%;
       }
       #gallery {
             margin: 0 6em 3em;
