@@ -60,6 +60,8 @@ main {
           justify-content: center;
       }
       #gallery {
-            margin: 0 3em;
+            margin: 0 6em 3em;
       }
+      .container {
+          height: 100vmin;
   }
