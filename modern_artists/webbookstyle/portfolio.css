@@ -59,4 +59,7 @@ main {
           flex-direction: column;
           justify-content: center;
       }
+      #gallery {
+            margin: 0 3em;
+      }
   }
