@@ -55,6 +55,8 @@ main {
           height: 500px;
       }
       main {
+          display: flex;
+          flex-direction: column;
           justify-content: center;
       }
   }
