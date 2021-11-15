@@ -149,7 +149,7 @@ h4 {
           
       }
       .parallax, parallax_artists, .parallax_about {
-          background-image: url(../webbookimage/background.jpg);
+         background-attachment: inherit;
       }
       #main-header p {
           line-height: 3rem;
