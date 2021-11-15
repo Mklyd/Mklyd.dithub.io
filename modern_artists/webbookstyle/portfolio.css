@@ -49,7 +49,7 @@ main {
   and (max-device-width: 479px) {
       figure {
           height: 100px;
-          width: 80vw;
+          
       }
       figure:hover {
           height: 500px;
