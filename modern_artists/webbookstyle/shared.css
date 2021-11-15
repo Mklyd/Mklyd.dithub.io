@@ -21,7 +21,7 @@ a {
     text-transform: uppercase;   
     padding: 15px 5;
 }
-a:hover {
+.main-nav__item a:hover {
     transition: all 1s ease;
    
     border-bottom: 5px solid rgb(168, 46, 46);
