@@ -143,9 +143,13 @@ h4 {
     body {
         font-size: 2rem;
     }
+      
       main {
           height: 100vmax;
           
+      }
+      .parallax, parallax_artists, .parallax_about {
+          background-image: url(../webbookimage/background.jpg);
       }
       #main-header p {
           line-height: 3rem;
